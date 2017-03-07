@@ -215,7 +215,7 @@ void Sortable_list<Record>::build_heap() { //建立初始的堆
 	}
 }
 
-//冒泡排序 O(n^2)
+//冒泡排序O(n^2)
 void bubble_sort(int[] unsorted) {
 	for (int i = 0; i < unsorted.Length; i++) {
 		for (int j = i; j < unsorted.Length; j++) {
