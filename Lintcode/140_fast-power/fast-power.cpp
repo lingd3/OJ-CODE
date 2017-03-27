@@ -7,7 +7,7 @@
 */
 
 class Solution {  //(a * b) % p = (a % p * b % p) % p
-public:           //a^n %p = (a^1/2 %p ) Ă ( a^1/2 %p) %p
+public:           //a^n %p = (a^1/2 %p ) × ( a^1/2 %p) %p
     /*
      * @param a, b, n: 32bit integers
      * @return: An integer
