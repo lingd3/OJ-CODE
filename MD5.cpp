@@ -6,7 +6,6 @@ unsigned int* extendString;
 unsigned int A, B, C, D;
 
 //四个基本的非线性函数
-//
 unsigned int F(unsigned int x, unsigned int y, unsigned int z) {
     return (x&y) | ((~x)&z);
 }
