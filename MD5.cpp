@@ -178,9 +178,9 @@ string MD5(string s) {
 
 int main() {
     cout << "几个常见的字符串经过MD5加密的结果如下：" << endl;
-    cout << "\"\"      加密后为：" << MD5("") << endl;
-    cout << "\"a\"     加密后为：" << MD5("a") << endl;
-    cout << "\"abc\"   加密后为：" << MD5("abc") << endl;
+    cout << "\"\"      加密后为： " << MD5("") << endl;
+    cout << "\"a\"     加密后为： " << MD5("a") << endl;
+    cout << "\"abc\"   加密后为： " << MD5("abc") << endl;
     while (true) {
         cout << "请输入要加密的字符串：";
         string s;
