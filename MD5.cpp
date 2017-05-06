@@ -9,12 +9,15 @@ unsigned int A, B, C, D;
 unsigned int F(unsigned int x, unsigned int y, unsigned int z) {
     return (x&y) | ((~x)&z);
 }
+
 unsigned int G(unsigned int x, unsigned int y, unsigned int z) {
     return (x&z) | (y&(~z));
 }
+
 unsigned int H(unsigned int x, unsigned int y, unsigned int z) {
     return x^y^z;
 }
+
 unsigned int I(unsigned int x, unsigned int y, unsigned int z) {
     return y^(x|(~z));
 }
