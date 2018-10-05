@@ -8,7 +8,7 @@ class Solution {
         	if (A.charAt(i) != B.charAt(i)) {
         		diffCount++;
         	}
-        }
+        } 
         if (diffCount == 2) {
         	char[] C = A.toCharArray(), D = B.toCharArray();
         	Arrays.sort(C);
